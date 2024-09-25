@@ -3,9 +3,8 @@ project(simple_robots NONE)
 
 find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
+include("cmake/gen.cmake")
 
-install(
-    FILES 
-)
+generate_robot(DIR "scara")
 
 ament_auto_package()
