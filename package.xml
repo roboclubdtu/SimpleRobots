@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>simple_robots</name>
+    <version>0.1.0</version>
+    <description>Collection of simple robots models for making ROS2 examples</description>
+    <maintainer email="gcote158@gmail.com">Geoffrey Côte</maintainer>
+    <url type="repository">https://github.com/roboclubdtu/SimpleRobotsa</url>
+    <license>MIT</license>
+
+    <build_depend>ament_auto</build_depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>
