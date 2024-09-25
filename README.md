@@ -7,7 +7,7 @@ This repository host a ROS2 packages containing a collection of simple kinematic
 This package contain for now:
 
 <a href="/tree/main/scara/">
-    <img src=".github/bsvg/scara.svg" style="width: 30vw;" alt="Click to see the source">
+    <img src=".github/bsvg/scara.svg" style="width: 30%;" alt="Click to see the source">
 </a>
 
 ## Depencies
