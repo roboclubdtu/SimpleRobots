@@ -7,4 +7,9 @@ include("cmake/gen.cmake")
 
 generate_robot(DIR "scara")
 
+install(
+    DIRECTORY rviz2
+    DESTINATION share/${PROJECT_NAME}
+)
+
 ament_auto_package()

@@ -48,7 +48,7 @@ function(generate_robot)
             message("        -> Installing script ${child}")
             install(
                 PROGRAMS ${child}
-                DESTINATION "lib/${PROJECT_NAME}/${ARG_DIR}"
+                DESTINATION "lib/${PROJECT_NAME}"
             )
         endforeach()
     endif()
