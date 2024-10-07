@@ -20,8 +20,9 @@ def generate_launch_description():
             ),
             Node(
                 package="simple_robots",
-                executable="scara.py",
+                executable="scara",
                 name="scara",
+                parameters=[{"robot_dsescription": urdf}],
             ),
             Node(
                 package="rviz2",
