@@ -31,10 +31,10 @@ class Simulator : public Node {
   struct Default {
     constchar ROBOT_DESC{""};
     constval int LOOP_HZ{20};
-    constval double M_ANG_VEL{0.5};   //< Maximum angle velocity (rad/s) if URDF value is 0
-    constval double M_LIN_VEL{0.02};  //< Maximum linear velocity (m/s) if URDF value is 0
-    constval double M_ANG_EFF{0.1};   //< Maximum angle effort (Nm) if URDF value is 0
-    constval double M_LIN_EFF{1};     //< Maximum linear effort (N) if URDF value is 0
+    constval double M_ANG_VEL{0.5};  //< Maximum angle velocity (rad/s) if URDF value is 0
+    constval double M_LIN_VEL{0.2};  //< Maximum linear velocity (m/s) if URDF value is 0
+    constval double M_ANG_EFF{0.1};  //< Maximum angle effort (Nm) if URDF value is 0
+    constval double M_LIN_EFF{1};    //< Maximum linear effort (N) if URDF value is 0
   };
   typedef std::shared_ptr<Simulator> SharedPtr;
 
