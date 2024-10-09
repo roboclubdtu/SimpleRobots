@@ -5,7 +5,7 @@ namespace simple_robots {
 
 using std::chrono::seconds;
 
-SCARANode::SCARANode() : KinematicSimulator("scara") {}
+SCARANode::SCARANode() : Simulator("scara") {}
 
 } // namespace simple_robots
 

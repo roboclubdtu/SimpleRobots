@@ -22,7 +22,7 @@ def generate_launch_description():
                 package="simple_robots",
                 executable="scara",
                 name="scara",
-                parameters=[{"robot_dsescription": urdf}],
+                parameters=[{"robot_description": urdf}],
             ),
             Node(
                 package="rviz2",
