@@ -8,6 +8,11 @@
     <url type="repository">https://github.com/roboclubdtu/SimpleRobotsa</url>
     <license>MIT</license>
 
+    <depend>rclcpp</depend>
+    <depend>sensor_msgs</depend>
+    <depend>rclcpp_components</depend>
+    <depend>kdl_parser</depend>
+    <depend>urdf</depend>
     <build_depend>ament_auto</build_depend>
 
     <export>

@@ -1,0 +1,1 @@
+scara;Kinematic SCARA;scara/SCARA.png
